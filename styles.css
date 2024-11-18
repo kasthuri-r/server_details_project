@@ -1,0 +1,44 @@
+/* This targets the <body> tag of the HTML document, which contains all visible content on the page. */
+body {    
+    font-family: Arial, sans-serif; /* Specifies the font style for the entire document. Arial is the primary font, and sans-serif is a fallback font if Arial isn't available. */
+    margin: 20px;  /* Adds a 20-pixel space around the body of the page to keep content away from the edges */
+}
+
+/* .green, .orange, .gray, and .red classes provide specific background colors for different statuses, applied dynamically in the HTML using class attributes. */
+
+.green {  /* A class selector. This applies styles to elements in the HTML document that have the class="green" attribute. */
+       background-color: #80ff80; /* Sets the background color */
+}
+.orange {
+	background-color:  #ffd280;
+}
+.gray {
+	background-color: #bfbfbf;
+}
+.red {
+     background-color: #ff8080; 
+}
+
+/*The table styling ensures the table is centered, neatly spaced, and compact. */
+table {  /* This targets all <table> elements in the HTML document. */
+    width: 80%; /* Makes the table take up 80% of the width of its parent container (usually the body). */
+    border-collapse: collapse; /*Collapses adjacent table borders into a single border, making it cleaner and more compact.*/
+    margin: 20px auto; /* Adds 20 pixels of space around the table (top and bottom).
+                          auto horizontally centers the table on the page. */
+}
+
+th, td {  /*th, td: Targets both <th> (table headers) and <td> (table data cells) in the table. */
+    padding: 10px;  /* Adds 10 pixels of space inside each table cell for better spacing. */
+    text-align: center; /* Aligns the content inside the cells to the center. */
+    border: 1px solid #ddd; /* Adds a 1-pixel solid border with a light gray color (#ddd) around each cell. */
+}
+
+th { /* Specifically targets the <th> (header cells) of the table. */
+    background-color: #f2f2f2;
+}
+
+/* The h1 styling ensures the main heading is visually distinct and easy to read. */
+h1 {   /* Targets all <h1> elements (headings) in the HTML document. */
+    color: #333;
+}
+
